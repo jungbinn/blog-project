@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "Blog project for practice",
+  "repository": "https://github.com/jungbinn/blog-project",
+  "author": "jungbinn",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
