@@ -11,15 +11,8 @@
     "declaration": true,
     "declarationMap": true,
     "allowSyntheticDefaultImports": true,
-    "paths": {
-      "@monorepo/server": ["../server/src/index.ts"]
-    }
+    "experimentalDecorators": true
   },
-  "references": [
-    {
-      "path": "../server"
-    }
-  ],
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
